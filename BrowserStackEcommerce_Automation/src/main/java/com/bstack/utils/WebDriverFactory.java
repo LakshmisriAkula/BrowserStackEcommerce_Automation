@@ -21,7 +21,6 @@ public class WebDriverFactory {
 		default:
 			throw new RuntimeException("Unsupported browser: " + browser);
 		}
-		driver.get(ConfigReader.get("url"));
 		return driver;
 	}
 
