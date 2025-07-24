@@ -6,24 +6,23 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
-
 	public static WebDriver createDriver(String browser) {
-
+		WebDriver driver;
 		switch (browser.toLowerCase()) {
-
 		case "chrome":
-			return new ChromeDriver();
-
+			driver = new ChromeDriver();
+			break;
 		case "firefox":
-			return new FirefoxDriver();
-
+			driver = new FirefoxDriver();
+			break;
 		case "edge":
-			return new EdgeDriver();
-
+			driver = new EdgeDriver();
+			break;
 		default:
 			throw new RuntimeException("Unsupported browser: " + browser);
-
 		}
-
+		driver.get(ConfigReader.get("url"));
+		return driver;
 	}
+
 }

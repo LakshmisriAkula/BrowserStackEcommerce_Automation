@@ -11,7 +11,6 @@ public class TestBase {
 	    @BeforeMethod
 	    public void setUp() {
 	        driver = WebDriverFactory.createDriver(ConfigReader.get("browser"));
-	        driver.get(ConfigReader.get("url"));
 	    }
 
 	    @AfterMethod
