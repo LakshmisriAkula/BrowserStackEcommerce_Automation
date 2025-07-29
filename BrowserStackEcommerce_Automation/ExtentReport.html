@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 24, 2025 06:48:26 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 29, 2025 04:50:54 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,6 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -74,25 +75,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">loginTestCases</p>
             <p class="text-sm">
-              <span>6:48:41 PM</span> / <span>00:00:00:999</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>4:51:04 PM</span> / <span>00:00:01:736</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">loginTestCases</h5>
-<span class='badge badge-success'>07.24.2025 6:48:41 PM</span>
-<span class='badge badge-danger'>07.24.2025 6:48:42 PM</span>
-<span class='badge badge-default'>00:00:00:999</span>
+<h5 class="test-status text-pass">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:51:04 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:51:05 PM</span>
+<span class='badge badge-default'>00:00:01:736</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -104,33 +105,32 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:42 PM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:51:05 PM</td>
         <td>
-          Test failed: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=138.0.7204.159)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5dede95e0348d471b3c336196147043c, sendKeysToElement {value=[Ljava.lang.CharSequence;@7cbeac65, id=f.364DE335EA0663028EF71F9CE78ABE8C.d.B1ADB585D249DFAEA3C4A10B408C64BE.e.113}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.159, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54860/devtoo..., se:cdpVersion: 138.0.7204.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5dede95e0348d471b3c336196147043c)] -> id: username]
-Session ID: 5dede95e0348d471b3c336196147043c
+          Signin Successful with username: 'demouser' and password: '******'
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:42 PM</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:51:05 PM</td>
         <td>
-          
+          🖼️ Click to Open Screenshot
     <div class="row mb-3"><div class="col-md-3">
     
 
-<img data-featherlight='E:\BrowserStackEcommerce_Automation\BrowserStackEcommerce_Automation\screenshots\loginTestCases_20250724_184842.png' src="E:\BrowserStackEcommerce_Automation\BrowserStackEcommerce_Automation\screenshots\loginTestCases_20250724_184842.png">
+<img data-featherlight='screenshots/Signin_Successful_with_username:_'demouser'_and_password:_'******'_20250729165105.png' src="screenshots/Signin_Successful_with_username:_'demouser'_and_password:_'******'_20250729165105.png">
   
     
 
     </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:51:05 PM</td>
+        <td>
+          Test passed
         </td>
       </tr>
   </tbody>
@@ -145,7 +145,7 @@ Session ID: 5dede95e0348d471b3c336196147043c
           <div class="test-detail">
             <p class="name">loginTestCases</p>
             <p class="text-sm">
-              <span>6:48:48 PM</span> / <span>00:00:00:933</span>
+              <span>4:51:13 PM</span> / <span>00:00:20:700</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -154,9 +154,9 @@ Session ID: 5dede95e0348d471b3c336196147043c
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">loginTestCases</h5>
-<span class='badge badge-success'>07.24.2025 6:48:48 PM</span>
-<span class='badge badge-danger'>07.24.2025 6:48:49 PM</span>
-<span class='badge badge-default'>00:00:00:933</span>
+<span class='badge badge-success'>07.29.2025 4:51:13 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:51:34 PM</span>
+<span class='badge badge-default'>00:00:20:700</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -169,28 +169,25 @@ Session ID: 5dede95e0348d471b3c336196147043c
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:49 PM</td>
+        <td>4:51:34 PM</td>
         <td>
-          Test failed: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=138.0.7204.159)
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [954d22ba427485e3f0c47df6af629ac4, sendKeysToElement {value=[Ljava.lang.CharSequence;@2c8c16c0, id=f.7102C96606505F119478357609E430F2.d.04CD3CC5888DBD7EBB22B8FFC7D8F91D.e.112}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.159, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54884}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54884/devtoo..., se:cdpVersion: 138.0.7204.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (954d22ba427485e3f0c47df6af629ac4)] -> id: username]
-Session ID: 954d22ba427485e3f0c47df6af629ac4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c6012674bc1498d325d0ff2231de6875
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:49 PM</td>
+        <td>4:51:34 PM</td>
         <td>
-          
+          📸 Screenshot on failure
     <div class="row mb-3"><div class="col-md-3">
     
 
-<img data-featherlight='E:\BrowserStackEcommerce_Automation\BrowserStackEcommerce_Automation\screenshots\loginTestCases_20250724_184849.png' src="E:\BrowserStackEcommerce_Automation\BrowserStackEcommerce_Automation\screenshots\loginTestCases_20250724_184849.png">
+<img data-featherlight='screenshots/loginTestCases_20250729_165134_20250729165134.png' src="screenshots/loginTestCases_20250729_165134_20250729165134.png">
   
     
 
@@ -209,7 +206,7 @@ Session ID: 954d22ba427485e3f0c47df6af629ac4
           <div class="test-detail">
             <p class="name">loginTestCases</p>
             <p class="text-sm">
-              <span>6:48:54 PM</span> / <span>00:00:00:111</span>
+              <span>4:51:42 PM</span> / <span>00:00:21:004</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -218,9 +215,9 @@ Session ID: 954d22ba427485e3f0c47df6af629ac4
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">loginTestCases</h5>
-<span class='badge badge-success'>07.24.2025 6:48:54 PM</span>
-<span class='badge badge-danger'>07.24.2025 6:48:54 PM</span>
-<span class='badge badge-default'>00:00:00:111</span>
+<span class='badge badge-success'>07.29.2025 4:51:42 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:52:03 PM</span>
+<span class='badge badge-default'>00:00:21:004</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -233,32 +230,1176 @@ Session ID: 954d22ba427485e3f0c47df6af629ac4
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:54 PM</td>
+        <td>4:52:03 PM</td>
         <td>
-          Test failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=138.0.7204.159)
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e923498a11a6f97cc6591e92e8877fd, findElement {value=signin, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.159, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54908/devtoo..., se:cdpVersion: 138.0.7204.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e923498a11a6f97cc6591e92e8877fd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49939/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57bdb7a24322852c766d16e13ebf02d5
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:48:54 PM</td>
+        <td>4:52:03 PM</td>
         <td>
-          Test failed: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=138.0.7204.159)
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165203_20250729165203.png' src="screenshots/loginTestCases_20250729_165203_20250729165203.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:52:23 PM</span> / <span>00:00:20:639</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:52:23 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:52:44 PM</span>
+<span class='badge badge-default'>00:00:20:639</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:52:44 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1e923498a11a6f97cc6591e92e8877fd, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.159, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54908}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54908/devtoo..., se:cdpVersion: 138.0.7204.159, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e923498a11a6f97cc6591e92e8877fd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50078/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2cc36d32bac487c289344c7d42420aa6
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:52:44 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165244_20250729165244.png' src="screenshots/loginTestCases_20250729_165244_20250729165244.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:53:21 PM</span> / <span>00:00:21:655</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:53:21 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:53:42 PM</span>
+<span class='badge badge-default'>00:00:21:655</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:53:42 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50161/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e6054340f81fef75b16775cfb7a5986
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:53:42 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165342_20250729165342.png' src="screenshots/loginTestCases_20250729_165342_20250729165342.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addSingleItemToCartTest</p>
+            <p class="text-sm">
+              <span>4:53:53 PM</span> / <span>00:00:00:686</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addSingleItemToCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:53:53 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:53:54 PM</span>
+<span class='badge badge-default'>00:00:00:686</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:53:54 PM</td>
+        <td>
+          Single item added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:53:54 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Single_item_added_to_cart_20250729165353.png' src="screenshots/Single_item_added_to_cart_20250729165353.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:53:54 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addMultipleItemsToCartTest</p>
+            <p class="text-sm">
+              <span>4:54:03 PM</span> / <span>00:00:00:914</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addMultipleItemsToCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:54:03 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:54:04 PM</span>
+<span class='badge badge-default'>00:00:00:914</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:04 PM</td>
+        <td>
+          Multiple items added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:04 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Multiple_items_added_to_cart_20250729165403.png' src="screenshots/Multiple_items_added_to_cart_20250729165403.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:54:04 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeItemFromCartTest</p>
+            <p class="text-sm">
+              <span>4:54:17 PM</span> / <span>00:00:01:207</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeItemFromCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:54:17 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:54:18 PM</span>
+<span class='badge badge-default'>00:00:01:207</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          2 items added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/2_items_added_to_cart_20250729165418.png' src="screenshots/2_items_added_to_cart_20250729165418.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          1 item removed from the cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/1_item_removed_from_the_cart_20250729165418.png' src="screenshots/1_item_removed_from_the_cart_20250729165418.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          1 item left in the cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/1_item_left_in_the_cart_20250729165418.png' src="screenshots/1_item_left_in_the_cart_20250729165418.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:54:18 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">placeOrderWithValidDetails</p>
+            <p class="text-sm">
+              <span>4:54:27 PM</span> / <span>00:00:03:958</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">placeOrderWithValidDetails</h5>
+<span class='badge badge-success'>07.29.2025 4:54:27 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:54:31 PM</span>
+<span class='badge badge-default'>00:00:03:958</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:31 PM</td>
+        <td>
+          Order Confirmed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:31 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Order_Confirmed_20250729165431.png' src="screenshots/Order_Confirmed_20250729165431.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:54:31 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">checkoutWithoutItemsNegativeTest</p>
+            <p class="text-sm">
+              <span>4:54:39 PM</span> / <span>00:00:00:671</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">checkoutWithoutItemsNegativeTest</h5>
+<span class='badge badge-success'>07.29.2025 4:54:39 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:54:40 PM</span>
+<span class='badge badge-default'>00:00:00:671</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:40 PM</td>
+        <td>
+          Cart is empty and Add some products in the bag displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:40 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Cart_is_empty_and_Add_some_products_in_the_bag_displayed._20250729165440.png' src="screenshots/Cart_is_empty_and_Add_some_products_in_the_bag_displayed._20250729165440.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:54:40 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:54:48 PM</span> / <span>00:00:01:117</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:54:48 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:54:49 PM</span>
+<span class='badge badge-default'>00:00:01:117</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:49 PM</td>
+        <td>
+          Signin Successful with username: 'demouser' and password: '******'
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:54:49 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Signin_Successful_with_username:_'demouser'_and_password:_'******'_20250729165449.png' src="screenshots/Signin_Successful_with_username:_'demouser'_and_password:_'******'_20250729165449.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:54:49 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:54:56 PM</span> / <span>00:00:20:485</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:54:56 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:55:17 PM</span>
+<span class='badge badge-default'>00:00:20:485</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:55:17 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10896, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f30129be-43de-4983-ac37-7b9916028f2b
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:55:17 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165517_20250729165517.png' src="screenshots/loginTestCases_20250729_165517_20250729165517.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:55:27 PM</span> / <span>00:00:20:719</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:55:27 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:55:48 PM</span>
+<span class='badge badge-default'>00:00:20:719</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:55:48 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13112, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4c57d7e7-a7b0-4b97-ba77-7438d8547b29
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:55:48 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165548_20250729165548.png' src="screenshots/loginTestCases_20250729_165548_20250729165548.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:55:59 PM</span> / <span>00:00:20:696</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:55:59 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:56:19 PM</span>
+<span class='badge badge-default'>00:00:20:696</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:56:19 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3128, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 65a354b9-c1c7-4e72-aac0-aac982026244
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:56:19 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165619_20250729165619.png' src="screenshots/loginTestCases_20250729_165619_20250729165619.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">loginTestCases</p>
+            <p class="text-sm">
+              <span>4:56:30 PM</span> / <span>00:00:20:696</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">loginTestCases</h5>
+<span class='badge badge-success'>07.29.2025 4:56:30 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:56:51 PM</span>
+<span class='badge badge-default'>00:00:20:696</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:56:51 PM</td>
+        <td>
+          Test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2316, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4112f6dd-783b-471a-bcba-b76e7a04ba4a
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:56:51 PM</td>
+        <td>
+          📸 Screenshot on failure
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/loginTestCases_20250729_165651_20250729165651.png' src="screenshots/loginTestCases_20250729_165651_20250729165651.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addSingleItemToCartTest</p>
+            <p class="text-sm">
+              <span>4:57:00 PM</span> / <span>00:00:00:369</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addSingleItemToCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:57:00 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:57:01 PM</span>
+<span class='badge badge-default'>00:00:00:369</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:01 PM</td>
+        <td>
+          Single item added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:01 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Single_item_added_to_cart_20250729165700.png' src="screenshots/Single_item_added_to_cart_20250729165700.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:57:01 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">addMultipleItemsToCartTest</p>
+            <p class="text-sm">
+              <span>4:57:09 PM</span> / <span>00:00:00:616</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">addMultipleItemsToCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:57:09 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:57:10 PM</span>
+<span class='badge badge-default'>00:00:00:616</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:10 PM</td>
+        <td>
+          Multiple items added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:10 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Multiple_items_added_to_cart_20250729165710.png' src="screenshots/Multiple_items_added_to_cart_20250729165710.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:57:10 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">removeItemFromCartTest</p>
+            <p class="text-sm">
+              <span>4:57:21 PM</span> / <span>00:00:00:860</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">removeItemFromCartTest</h5>
+<span class='badge badge-success'>07.29.2025 4:57:21 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:57:21 PM</span>
+<span class='badge badge-default'>00:00:00:860</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          2 items added to cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/2_items_added_to_cart_20250729165721.png' src="screenshots/2_items_added_to_cart_20250729165721.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          1 item removed from the cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/1_item_removed_from_the_cart_20250729165721.png' src="screenshots/1_item_removed_from_the_cart_20250729165721.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          1 item left in the cart
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/1_item_left_in_the_cart_20250729165721.png' src="screenshots/1_item_left_in_the_cart_20250729165721.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:57:21 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">placeOrderWithValidDetails</p>
+            <p class="text-sm">
+              <span>4:57:30 PM</span> / <span>00:00:02:889</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">placeOrderWithValidDetails</h5>
+<span class='badge badge-success'>07.29.2025 4:57:30 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:57:33 PM</span>
+<span class='badge badge-default'>00:00:02:889</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:33 PM</td>
+        <td>
+          Order Confirmed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:33 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Order_Confirmed_20250729165733.png' src="screenshots/Order_Confirmed_20250729165733.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:57:33 PM</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">checkoutWithoutItemsNegativeTest</p>
+            <p class="text-sm">
+              <span>4:57:43 PM</span> / <span>00:00:00:359</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">checkoutWithoutItemsNegativeTest</h5>
+<span class='badge badge-success'>07.29.2025 4:57:43 PM</span>
+<span class='badge badge-danger'>07.29.2025 4:57:43 PM</span>
+<span class='badge badge-default'>00:00:00:359</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:43 PM</td>
+        <td>
+          Cart is empty and Add some products in the bag displayed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:57:43 PM</td>
+        <td>
+          🖼️ Click to Open Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='screenshots/Cart_is_empty_and_Add_some_products_in_the_bag_displayed._20250729165743.png' src="screenshots/Cart_is_empty_and_Add_some_products_in_the_bag_displayed._20250729165743.png">
+  
+    
+
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:57:43 PM</td>
+        <td>
+          Test passed
         </td>
       </tr>
   </tbody>
@@ -280,25 +1421,25 @@ Session ID: 1e923498a11a6f97cc6591e92e8877fd
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 24, 2025 06:48:26 PM</h3>
+<h3>Jul 29, 2025 04:50:54 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 24, 2025 06:48:54 PM</h3>
+<h3>Jul 29, 2025 04:57:45 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>12</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>3</h3>
+<h3>8</h3>
 </div></div>
 </div>
 </div>
@@ -314,12 +1455,12 @@ Session ID: 1e923498a11a6f97cc6591e92e8877fd
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='60%'>
+<b>12</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>3</b> tests failed,
+<small data-tooltip='40%'><b>8</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -337,10 +1478,10 @@ Session ID: 1e923498a11a6f97cc6591e92e8877fd
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='20%'><b>12</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>6</b> events failed,
-<b data-tooltip='%'>0</b> others
+<small data-tooltip='26%'><b>16</b> events failed,
+<b data-tooltip='%'>32</b> others
 </small>
 </div>
 </div>
@@ -356,7 +1497,7 @@ Session ID: 1e923498a11a6f97cc6591e92e8877fd
 </div></div>
 <script>
 var timeline = {
-"loginTestCases":0.999,"loginTestCases":0.933,"loginTestCases":0.111
+"loginTestCases":1.736,"loginTestCases":20.7,"loginTestCases":21.004,"loginTestCases":20.639,"loginTestCases":21.655,"addSingleItemToCartTest":0.686,"addMultipleItemsToCartTest":0.914,"removeItemFromCartTest":1.207,"placeOrderWithValidDetails":3.958,"checkoutWithoutItemsNegativeTest":0.671,"loginTestCases":1.117,"loginTestCases":20.485,"loginTestCases":20.719,"loginTestCases":20.696,"loginTestCases":20.696,"addSingleItemToCartTest":0.369,"addMultipleItemsToCartTest":0.616,"removeItemFromCartTest":0.86,"placeOrderWithValidDetails":2.889,"checkoutWithoutItemsNegativeTest":0.359
 };
 </script>
 <div class="row">
@@ -383,8 +1524,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 3,
+passParent: 12,
+failParent: 8,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -400,11 +1541,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 6,
+passEvents: 12,
+failEvents: 16,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 0
+infoEvents: 32
 };
 </script>        </div>
       </div>

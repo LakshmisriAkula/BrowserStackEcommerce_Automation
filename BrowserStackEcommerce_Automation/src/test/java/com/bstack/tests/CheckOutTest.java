@@ -1,17 +1,16 @@
 package com.bstack.tests;
 
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
 import com.bstack.base.TestBase;
 import com.bstack.pages.CartPage;
 import com.bstack.pages.CheckoutPage;
 import com.bstack.pages.LoginPage;
 import com.bstack.pages.ProductPage;
 import com.bstack.utils.WaitUtils;
-
-import org.openqa.selenium.By;
-import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
 
 public class CheckOutTest extends TestBase {
 	LoginPage loginPage;
@@ -26,18 +25,17 @@ public class CheckOutTest extends TestBase {
 		cartPage = new CartPage(driver);
 		checkoutPage = new CheckoutPage(driver);
 
-		loginPage.signInLink.click();
-
-		WaitUtils.waitForVisibility(driver, loginPage.usernameFieldLocator, 10);
+		driver.findElement(loginPage.signInLink).click();
 
 		loginPage.login("demouser", "testingisfun99");
 
-		Thread.sleep(3000);
+		WaitUtils.waitForVisibility(driver, loginPage.usernameFieldLocator, 10);
 
 	}
 
 	@Test(priority = 1)
 	public void placeOrderWithValidDetails() throws InterruptedException {
+		
 		productPage.addFirstProductToCart();
 		WaitUtils.waitForCartCount(driver, 1);
 		checkoutPage.clickCheckout();
@@ -50,7 +48,8 @@ public class CheckOutTest extends TestBase {
 
 	@Test(priority = 2)
 	public void checkoutWithoutItemsNegativeTest() throws InterruptedException {
-		CheckoutPage.cartButton.click();
+		
+		driver.findElement(checkoutPage.cartButton).click();
 
 		String emptyCartMessage = driver.findElement(By.xpath("//p[@class='shelf-empty']")).getText();
 

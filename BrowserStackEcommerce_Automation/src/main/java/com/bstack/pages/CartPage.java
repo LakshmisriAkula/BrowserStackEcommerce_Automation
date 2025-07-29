@@ -2,39 +2,35 @@ package com.bstack.pages;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
+import com.bstack.utils.WaitUtils;
 
 public class CartPage {
-    WebDriver driver;
+	WebDriver driver;
 
-    @FindBy(css = "span.bag__quantity")
-    WebElement cartCount;
-    
-    @FindBy(css = ".float-cart__shelf-container > div")
-    List<WebElement> cartItems;
+	private By cartCount = By.cssSelector(".bag__quantity");
+	private By cartItems = By.cssSelector(".float-cart__shelf-container > div");
+	private By removeButtons = By.cssSelector(".shelf-item__del");
 
-    @FindBy(css = ".shelf-item__del")
-    List<WebElement> removeButtons;
+	public CartPage(WebDriver driver) {
+		this.driver = driver;
+	}
 
-    public CartPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-    }
+	public String getCartItemCount() {
+		return driver.findElement(cartCount).getText();
+	}
 
-    public String getCartItemCount() {
-        return cartCount.getText(); 
-    }
+	public int getTotalItemsInCart() {
+		return driver.findElements(cartItems).size();
+	}
 
-    public int getTotalItemsInCart() {
-        return cartItems.size();
-    }
-
-    public void removeFirstItemFromCart() {
-        if (!removeButtons.isEmpty()) {
-            removeButtons.get(0).click();
-        }
-    }
+	public void removeFirstItemFromCart() {
+		List<WebElement> buttons = driver.findElements(removeButtons);
+		if (!buttons.isEmpty()) {
+			buttons.get(0).click();
+		}
+	}
 }

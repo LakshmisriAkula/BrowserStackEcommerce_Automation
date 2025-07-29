@@ -1,12 +1,8 @@
 package com.bstack.extentreportlistener;
 
-import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -18,6 +14,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.bstack.base.TestBase;
+import com.bstack.utils.WaitUtils;
 
 public class ExtentTestListener implements ITestListener, ISuiteListener {
 
@@ -54,26 +51,17 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		if (test != null) {
-			test.fail("Test failed: " + result.getThrowable());
+		test.fail("Test failed: " + result.getThrowable());
 
-			WebDriver driver = TestBase.driver;
-			String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-			String filePath = "screenshots/" + result.getName() + "_" + timestamp + ".png";
+		WebDriver driver = TestBase.driver;
 
-			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			File dest = new File(filePath);
-			dest.getParentFile().mkdirs();
+		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-			try {
-				org.openqa.selenium.io.FileHandler.copy(src, dest);
-				test.fail(MediaEntityBuilder.createScreenCaptureFromPath(dest.getAbsolutePath()).build());
-			} catch (IOException e) {
-				test.fail("Screenshot error: " + e.getMessage());
-			}
-		} else {
-			System.err.println("ExtentTest is null in onTestFailure for: " + result.getMethod().getMethodName());
-		}
+		String screenshotName = result.getName() + "_" + timestamp;
+
+		String filePath = WaitUtils.captureScreenshot(driver, screenshotName);
+
+		test.fail("📸 Screenshot on failure", MediaEntityBuilder.createScreenCaptureFromPath(filePath).build());
 	}
 
 	@Override

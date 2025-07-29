@@ -22,13 +22,11 @@ public class AddToCartTest extends TestBase {
 		productPage = new ProductPage(driver);
 		cartPage = new CartPage(driver);
 
-		loginPage.signInLink.click();
-
-		WaitUtils.waitForVisibility(driver, loginPage.usernameFieldLocator, 10);
+		driver.findElement(loginPage.signInLink).click();
 
 		loginPage.login("demouser", "testingisfun99");
 
-		Thread.sleep(3000);
+		WaitUtils.waitForVisibility(driver, loginPage.usernameFieldLocator, 10);
 
 	}
 
@@ -36,7 +34,7 @@ public class AddToCartTest extends TestBase {
 	public void addSingleItemToCartTest() throws InterruptedException {
 		productPage.addFirstProductToCart();
 		WaitUtils.waitForCartCount(driver, 1);
-		Assert.assertEquals(cartPage.getCartItemCount(), "1");
+	    Assert.assertEquals(Integer.parseInt(cartPage.getCartItemCount()), 1, "Cart count mismatch after adding one item.");
 		logWithScreenshot("Single item added to cart");
 
 	}
@@ -45,7 +43,7 @@ public class AddToCartTest extends TestBase {
 	public void addMultipleItemsToCartTest() throws InterruptedException {
 		productPage.addMultipleProductsToCart(3);
 		WaitUtils.waitForCartCount(driver, 3);
-		Assert.assertEquals(cartPage.getCartItemCount(), "3");
+	    Assert.assertEquals(Integer.parseInt(cartPage.getCartItemCount()), 3, "Cart count mismatch after adding one item.");
 		logWithScreenshot("Multiple items added to cart");
 
 	}

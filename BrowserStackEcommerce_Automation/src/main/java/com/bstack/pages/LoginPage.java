@@ -1,55 +1,56 @@
 package com.bstack.pages;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.bstack.utils.WaitUtils;
 
 public class LoginPage {
 	WebDriver driver;
 
-	@FindBy(id = "signin")
-	public WebElement signInLink ;
+	public By signInLink = By.id("signin");
 
-//	@FindBy(xpath="//div[contains(text(),'Select Username')]")
-//	public WebElement usernameField;
-	
-	@FindBy(id = "username")
-	private WebElement usernameFieldInput;
+	public By userNameDropdown = By
+			.xpath("//div[@id='username']//div[contains(@class,'css-tlfecz-indicatorContainer')]");
 
-		
-	@FindBy(xpath="//div[contains(text(),'Select Password')]")
-	private WebElement passwordFieldInput;
+	public By passwordDropdown = By
+			.xpath("//div[@id='password']//div[contains(@class,'css-tlfecz-indicatorContainer')]");
 
-	@FindBy(xpath = "//button[@id='login-btn']")
-	private WebElement loginButton;
+	private By loginButton = By.xpath("//button[@id='login-btn']");
 
-	@FindBy(xpath = "//span[@class='username']")
-	private WebElement loggedInUserName;
-	
-    public By usernameFieldLocator = By.id("username"); // For WaitUtils in test
+	public By loggedInUserName = By.xpath("//span[@class='username']");
 
+	public By usernameFieldLocator = By.id("username");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this); 
 	}
 
-
 	public void login(String username, String password) {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-	    wait.until(ExpectedConditions.elementToBeClickable(usernameFieldInput)).sendKeys(username);
-	    wait.until(ExpectedConditions.elementToBeClickable(passwordFieldInput)).sendKeys(password);
-	    wait.until(ExpectedConditions.elementToBeClickable(loginButton)).click();
+		driver.findElement(userNameDropdown).click();
+
+		By usernameOption = By.xpath("//div[@id='username']//div[text()='" + username + "']");
+
+		WaitUtils.waitForVisibility(driver, usernameOption, 10);
+
+		driver.findElement(usernameOption).click();
+
+		driver.findElement(passwordDropdown).click();
+
+		By passwordOption = By.xpath("//div[@id='password']//div[text()='" + password + "']");
+
+		WaitUtils.waitForVisibility(driver, passwordOption, 10);
+
+		driver.findElement(passwordOption).click();
+
+		driver.findElement(loginButton).click();
 	}
 
 	public boolean isLoginSuccessful() {
-		return loggedInUserName.isDisplayed();
+
+		WaitUtils.waitForVisibility(driver, loggedInUserName, 10);
+		
+		return driver.findElement(loggedInUserName).isDisplayed();
 	}
 }

@@ -1,61 +1,41 @@
 package com.bstack.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class CheckoutPage {
     WebDriver driver;
 
-    @FindBy(css = ".buy-btn")
-    WebElement checkoutButton;
-    
-    @FindBy(id = "firstNameInput")
-    WebElement firstName;
-
-    @FindBy(id = "lastNameInput")
-    WebElement lastName;
-
-    @FindBy(id = "addressLine1Input")
-    WebElement address;
-
-    @FindBy(id = "provinceInput")
-    WebElement state;
-
-    @FindBy(id = "postCodeInput")
-    WebElement postalCode;
-
-    @FindBy(id = "checkout-shipping-continue")
-    WebElement submitButton;
-
-    @FindBy(id = "confirmation-message")
-    WebElement orderConfirmation;
-    
-    @FindBy(xpath = "//span[@class='bag bag--float-cart-closed']")
-    public static WebElement cartButton;
-    
-  
+    private By checkoutButton = By.cssSelector(".buy-btn");
+    private By firstName = By.id("firstNameInput");
+    private By lastName = By.id("lastNameInput");
+    private By address = By.id("addressLine1Input");
+    private By state = By.id("provinceInput");
+    private By postalCode = By.id("postCodeInput");
+    private By submitButton = By.id("checkout-shipping-continue");
+    private By orderConfirmation = By.id("confirmation-message");
+    public static By cartButton = By.xpath("//span[@class='bag bag--float-cart-closed']");
 
     public CheckoutPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 
     public void clickCheckout() {
-        checkoutButton.click();
+        driver.findElement(checkoutButton).click();
     }
 
     public void fillShippingFormAndSubmit(String fname, String lname, String addr, String st, String pin) {
-        firstName.sendKeys(fname);
-        lastName.sendKeys(lname);
-        address.sendKeys(addr);
-        state.sendKeys(st);
-        postalCode.sendKeys(pin);
-        submitButton.click();
+        driver.findElement(firstName).sendKeys(fname);
+        driver.findElement(lastName).sendKeys(lname);
+        driver.findElement(address).sendKeys(addr);
+        driver.findElement(state).sendKeys(st);
+        driver.findElement(postalCode).sendKeys(pin);
+        driver.findElement(submitButton).click();
     }
-    
+
     public boolean isOrderConfirmed() {
-        return orderConfirmation.isDisplayed();
+        WebElement confirmation = driver.findElement(orderConfirmation);
+        return confirmation.isDisplayed();
     }
 }
