@@ -26,11 +26,8 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 		ExtentSparkReporter spark = new ExtentSparkReporter("ExtentReport.html");
 		extent = new ExtentReports();
 		extent.attachReporter(spark);
-
-		// Add System Info
-		String browser = System.getProperty("browser", "chrome"); // default to chrome
-		extent.setSystemInfo("Browser", browser);
 		extent.setSystemInfo("Suite", suite.getName());
+
 	}
 
 	@Override
@@ -42,6 +39,10 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getMethod().getMethodName());
 		com.bstack.base.TestBase.logger = test;
+
+		String browser = result.getTestContext().getCurrentXmlTest().getParameter("browser");
+
+		test.info("Browser Used: " + browser);
 	}
 
 	@Override
@@ -51,6 +52,7 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+
 		test.fail("Test failed: " + result.getThrowable());
 
 		WebDriver driver = TestBase.driver;
@@ -62,15 +64,12 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 		String filePath = WaitUtils.captureScreenshot(driver, screenshotName);
 
 		test.fail("📸 Screenshot on failure", MediaEntityBuilder.createScreenCaptureFromPath(filePath).build());
+
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		if (test != null) {
-			test.skip("Test skipped");
-		} else {
-			System.err.println("ExtentTest is null in onTestSkipped for: " + result.getMethod().getMethodName());
-		}
+		test.skip("Test skipped");
 	}
 
 }

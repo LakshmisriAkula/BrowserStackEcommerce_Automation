@@ -1,6 +1,9 @@
 package com.bstack.tests;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -35,7 +38,7 @@ public class CheckOutTest extends TestBase {
 
 	@Test(priority = 1)
 	public void placeOrderWithValidDetails() throws InterruptedException {
-		
+
 		productPage.addFirstProductToCart();
 		WaitUtils.waitForCartCount(driver, 1);
 		checkoutPage.clickCheckout();
@@ -48,17 +51,27 @@ public class CheckOutTest extends TestBase {
 
 	@Test(priority = 2)
 	public void checkoutWithoutItemsNegativeTest() throws InterruptedException {
-		
+
 		driver.findElement(checkoutPage.cartButton).click();
+
+		Thread.sleep(3000);
 
 		String emptyCartMessage = driver.findElement(By.xpath("//p[@class='shelf-empty']")).getText();
 
-//		checkoutPage.clickCheckout();
+		List<WebElement> productsInCart = driver
+				.findElements(By.xpath("//div[@class='float-cart__shelf-container']//div[@class='shelf-item']"));
 
-		Assert.assertTrue(emptyCartMessage.contains("Add some products in the bag"),
-				"Checkout should not succeed without items!");
-		
-		logWithScreenshot("Cart is empty and Add some products in the bag displayed.");
+		if (productsInCart.isEmpty() && emptyCartMessage.contains("Add some products in the bag")) {
 
+			Assert.assertTrue(emptyCartMessage.contains("Add some products in the bag"),
+					"Empty cart message not displayed correctly!");
+
+			logWithScreenshot("Cart is empty and the message 'Add some products in the bag' is displayed.");
+
+		}
+
+		else {
+			Assert.fail("Either the cart is not empty or the expected empty cart message was not found.");
+		}
 	}
 }

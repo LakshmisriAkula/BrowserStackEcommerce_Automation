@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="20" passed="12" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T16:50:55 IST" name="BrowserStackDemo E-Commerce Test Suite" finished-at="2025-07-29T16:57:45 IST" duration-ms="410130">
+  <suite started-at="2025-07-31T11:57:12 IST" name="BrowserStackDemo E-Commerce Test Suite" finished-at="2025-07-31T12:04:17 IST" duration-ms="424484">
     <groups>
     </groups>
-    <test started-at="2025-07-29T16:50:55 IST" name="Chrome Tests" finished-at="2025-07-29T16:54:40 IST" duration-ms="225819">
+    <test started-at="2025-07-31T11:57:12 IST" name="Chrome Tests" finished-at="2025-07-31T12:00:03 IST" duration-ms="170411">
       <class name="com.bstack.tests.AddToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:53:43 IST" name="setUp" finished-at="2025-07-29T16:53:52 IST" duration-ms="8747" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:06 IST" name="setUp" finished-at="2025-07-31T11:59:10 IST" duration-ms="4043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:53:52 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:53:53 IST" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:10 IST" name="initPagesAndLogin" finished-at="2025-07-31T11:59:11 IST" duration-ms="830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="addSingleItemToCartTest()[pri:1, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:53:53 IST" name="addSingleItemToCartTest" finished-at="2025-07-29T16:53:54 IST" duration-ms="686" status="PASS">
+        <test-method signature="addSingleItemToCartTest()[pri:1, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:11 IST" name="addSingleItemToCartTest" finished-at="2025-07-31T11:59:12 IST" duration-ms="1124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSingleItemToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:53:54 IST" name="tearDown" finished-at="2025-07-29T16:53:54 IST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:12 IST" name="tearDown" finished-at="2025-07-31T11:59:12 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:53:54 IST" name="setUp" finished-at="2025-07-29T16:54:02 IST" duration-ms="7717" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:12 IST" name="setUp" finished-at="2025-07-31T11:59:16 IST" duration-ms="4000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:02 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:54:03 IST" duration-ms="1184" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:16 IST" name="initPagesAndLogin" finished-at="2025-07-31T11:59:17 IST" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="addMultipleItemsToCartTest()[pri:2, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:03 IST" name="addMultipleItemsToCartTest" finished-at="2025-07-29T16:54:04 IST" duration-ms="918" status="PASS">
+        <test-method signature="addMultipleItemsToCartTest()[pri:2, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:17 IST" name="addMultipleItemsToCartTest" finished-at="2025-07-31T11:59:18 IST" duration-ms="781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleItemsToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:04 IST" name="tearDown" finished-at="2025-07-29T16:54:04 IST" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:18 IST" name="tearDown" finished-at="2025-07-31T11:59:18 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:04 IST" name="setUp" finished-at="2025-07-29T16:54:16 IST" duration-ms="11699" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:18 IST" name="setUp" finished-at="2025-07-31T11:59:23 IST" duration-ms="4281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,69 +64,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:16 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:54:17 IST" duration-ms="1162" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:23 IST" name="initPagesAndLogin" finished-at="2025-07-31T11:59:24 IST" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="removeItemFromCartTest()[pri:3, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:17 IST" name="removeItemFromCartTest" finished-at="2025-07-29T16:54:18 IST" duration-ms="1207" status="PASS">
+        <test-method signature="removeItemFromCartTest()[pri:3, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:24 IST" name="removeItemFromCartTest" finished-at="2025-07-31T11:59:25 IST" duration-ms="1171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@6ab778a]" started-at="2025-07-29T16:54:18 IST" name="tearDown" finished-at="2025-07-29T16:54:19 IST" duration-ms="523" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@942a29c]" started-at="2025-07-31T11:59:25 IST" name="tearDown" finished-at="2025-07-31T11:59:25 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bstack.tests.AddToCartTest -->
-      <class name="com.bstack.tests.CheckOutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:19 IST" name="setUp" finished-at="2025-07-29T16:54:26 IST" duration-ms="7111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:26 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:54:27 IST" duration-ms="882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="placeOrderWithValidDetails()[pri:1, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:27 IST" name="placeOrderWithValidDetails" finished-at="2025-07-29T16:54:31 IST" duration-ms="3958" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrderWithValidDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:31 IST" name="tearDown" finished-at="2025-07-29T16:54:31 IST" duration-ms="342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:31 IST" name="setUp" finished-at="2025-07-29T16:54:38 IST" duration-ms="7139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:38 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:54:39 IST" duration-ms="1221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="checkoutWithoutItemsNegativeTest()[pri:2, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:39 IST" name="checkoutWithoutItemsNegativeTest" finished-at="2025-07-29T16:54:40 IST" duration-ms="672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutWithoutItemsNegativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@548e6d58]" started-at="2025-07-29T16:54:40 IST" name="tearDown" finished-at="2025-07-29T16:54:40 IST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bstack.tests.CheckOutTest -->
       <class name="com.bstack.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:50:55 IST" name="setUp" finished-at="2025-07-29T16:51:04 IST" duration-ms="8461" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:13 IST" name="setUp" finished-at="2025-07-31T11:57:22 IST" duration-ms="8222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:04 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:51:05 IST" duration-ms="1750" status="PASS">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:22 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T11:57:24 IST" duration-ms="2551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:05 IST" name="tearDown" finished-at="2025-07-29T16:51:06 IST" duration-ms="415" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:24 IST" name="tearDown" finished-at="2025-07-31T11:57:24 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:06 IST" name="setUp" finished-at="2025-07-29T16:51:13 IST" duration-ms="7431" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:24 IST" name="setUp" finished-at="2025-07-31T11:57:29 IST" duration-ms="4161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,63 +120,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:13 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:51:34 IST" duration-ms="20494" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:29 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T11:57:49 IST" duration-ms="20523" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Lakshmisri]]>
+                <![CDATA[  ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testingisfun99]]>
+                <![CDATA[  ]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='  '] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6012674bc1498d325d0ff2231de6875]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59845/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8285317f71032d2d7771d5bdda8a1c00]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='  '] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c6012674bc1498d325d0ff2231de6875
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59845/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8285317f71032d2d7771d5bdda8a1c00
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -234,11 +186,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:34 IST" name="tearDown" finished-at="2025-07-29T16:51:34 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:49 IST" name="tearDown" finished-at="2025-07-31T11:57:50 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:34 IST" name="setUp" finished-at="2025-07-29T16:51:42 IST" duration-ms="7749" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:50 IST" name="setUp" finished-at="2025-07-31T11:57:55 IST" duration-ms="4931" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -249,7 +201,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:51:42 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:52:03 IST" duration-ms="20830" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:57:55 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T11:58:15 IST" duration-ms="20708" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -258,54 +210,54 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="1">
               <value>
-                <![CDATA[akanksha@123]]>
+                <![CDATA[testing99]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='testing99'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49939/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 57bdb7a24322852c766d16e13ebf02d5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59875/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e1a764ca32c7b3c51021d4ed9dd00a1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='testing99'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49939/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 57bdb7a24322852c766d16e13ebf02d5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59875/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e1a764ca32c7b3c51021d4ed9dd00a1
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:47)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:43)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -315,11 +267,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:52:03 IST" name="tearDown" finished-at="2025-07-29T16:52:04 IST" duration-ms="425" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:15 IST" name="tearDown" finished-at="2025-07-31T11:58:16 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:52:04 IST" name="setUp" finished-at="2025-07-29T16:52:23 IST" duration-ms="19839" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:16 IST" name="setUp" finished-at="2025-07-31T11:58:20 IST" duration-ms="4438" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,7 +282,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:52:23 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:52:44 IST" duration-ms="20470" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:20 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T11:58:41 IST" duration-ms="20441" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -347,46 +299,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50078/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cc36d32bac487c289344c7d42420aa6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59907/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46482351ee18080558edd6a0427ccdc9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50078/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2cc36d32bac487c289344c7d42420aa6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59907/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46482351ee18080558edd6a0427ccdc9
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -396,11 +348,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:52:44 IST" name="tearDown" finished-at="2025-07-29T16:52:45 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:41 IST" name="tearDown" finished-at="2025-07-31T11:58:41 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:52:45 IST" name="setUp" finished-at="2025-07-29T16:53:21 IST" duration-ms="36169" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:41 IST" name="setUp" finished-at="2025-07-31T11:58:45 IST" duration-ms="4204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,7 +363,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:53:21 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:53:42 IST" duration-ms="21440" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:58:45 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T11:59:06 IST" duration-ms="20539" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -428,46 +380,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50161/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e6054340f81fef75b16775cfb7a5986]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59933/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcff8d6c63120749ab32ff08ba65ac6a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\srban\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50161/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1e6054340f81fef75b16775cfb7a5986
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAKSHM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59933/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dcff8d6c63120749ab32ff08ba65ac6a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -477,15 +429,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@69453e37]" started-at="2025-07-29T16:53:42 IST" name="tearDown" finished-at="2025-07-29T16:53:43 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@4803b726]" started-at="2025-07-31T11:59:06 IST" name="tearDown" finished-at="2025-07-31T11:59:06 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bstack.tests.LoginTest -->
+      <class name="com.bstack.tests.CheckOutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:25 IST" name="setUp" finished-at="2025-07-31T11:59:29 IST" duration-ms="4401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:29 IST" name="initPagesAndLogin" finished-at="2025-07-31T11:59:30 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPagesAndLogin -->
+        <test-method signature="placeOrderWithValidDetails()[pri:1, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:30 IST" name="placeOrderWithValidDetails" finished-at="2025-07-31T11:59:34 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderWithValidDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:34 IST" name="tearDown" finished-at="2025-07-31T11:59:34 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:34 IST" name="setUp" finished-at="2025-07-31T11:59:38 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:38 IST" name="initPagesAndLogin" finished-at="2025-07-31T11:59:39 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPagesAndLogin -->
+        <test-method signature="checkoutWithoutItemsNegativeTest()[pri:2, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T11:59:39 IST" name="checkoutWithoutItemsNegativeTest" finished-at="2025-07-31T12:00:03 IST" duration-ms="23521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutWithoutItemsNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@7b36aa0c]" started-at="2025-07-31T12:00:03 IST" name="tearDown" finished-at="2025-07-31T12:00:03 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bstack.tests.CheckOutTest -->
     </test> <!-- Chrome Tests -->
-    <test started-at="2025-07-29T16:54:40 IST" name="Firefox Tests" finished-at="2025-07-29T16:57:45 IST" duration-ms="184261">
+    <test started-at="2025-07-31T12:00:03 IST" name="Firefox Tests" finished-at="2025-07-31T12:04:17 IST" duration-ms="253742">
       <class name="com.bstack.tests.AddToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:56:53 IST" name="setUp" finished-at="2025-07-29T16:56:59 IST" duration-ms="6764" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:02:13 IST" name="setUp" finished-at="2025-07-31T12:03:10 IST" duration-ms="56454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -496,19 +496,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:56:59 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:57:00 IST" duration-ms="797" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:10 IST" name="initPagesAndLogin" finished-at="2025-07-31T12:03:11 IST" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="addSingleItemToCartTest()[pri:1, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:00 IST" name="addSingleItemToCartTest" finished-at="2025-07-29T16:57:01 IST" duration-ms="371" status="PASS">
+        <test-method signature="addSingleItemToCartTest()[pri:1, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:11 IST" name="addSingleItemToCartTest" finished-at="2025-07-31T12:03:12 IST" duration-ms="954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSingleItemToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:01 IST" name="tearDown" finished-at="2025-07-29T16:57:02 IST" duration-ms="1498" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:12 IST" name="tearDown" finished-at="2025-07-31T12:03:13 IST" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:02 IST" name="setUp" finished-at="2025-07-29T16:57:09 IST" duration-ms="6480" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:13 IST" name="setUp" finished-at="2025-07-31T12:03:22 IST" duration-ms="9310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -519,19 +519,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:09 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:57:09 IST" duration-ms="871" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:22 IST" name="initPagesAndLogin" finished-at="2025-07-31T12:03:23 IST" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="addMultipleItemsToCartTest()[pri:2, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:09 IST" name="addMultipleItemsToCartTest" finished-at="2025-07-29T16:57:10 IST" duration-ms="616" status="PASS">
+        <test-method signature="addMultipleItemsToCartTest()[pri:2, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:23 IST" name="addMultipleItemsToCartTest" finished-at="2025-07-31T12:03:24 IST" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleItemsToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:10 IST" name="tearDown" finished-at="2025-07-29T16:57:12 IST" duration-ms="1629" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:24 IST" name="tearDown" finished-at="2025-07-31T12:03:25 IST" duration-ms="1140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:12 IST" name="setUp" finished-at="2025-07-29T16:57:20 IST" duration-ms="8069" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:25 IST" name="setUp" finished-at="2025-07-31T12:03:31 IST" duration-ms="6137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,21 +542,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:20 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:57:21 IST" duration-ms="824" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:31 IST" name="initPagesAndLogin" finished-at="2025-07-31T12:03:32 IST" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="removeItemFromCartTest()[pri:3, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:21 IST" name="removeItemFromCartTest" finished-at="2025-07-29T16:57:21 IST" duration-ms="860" status="PASS">
+        <test-method signature="removeItemFromCartTest()[pri:3, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:32 IST" name="removeItemFromCartTest" finished-at="2025-07-31T12:03:33 IST" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@41c2284a]" started-at="2025-07-29T16:57:21 IST" name="tearDown" finished-at="2025-07-29T16:57:23 IST" duration-ms="1564" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.AddToCartTest@2e8c1c9b]" started-at="2025-07-31T12:03:33 IST" name="tearDown" finished-at="2025-07-31T12:03:34 IST" duration-ms="1099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bstack.tests.AddToCartTest -->
       <class name="com.bstack.tests.CheckOutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:23 IST" name="setUp" finished-at="2025-07-29T16:57:30 IST" duration-ms="6630" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:34 IST" name="setUp" finished-at="2025-07-31T12:03:41 IST" duration-ms="6927" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -567,19 +567,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:30 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:57:30 IST" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:41 IST" name="initPagesAndLogin" finished-at="2025-07-31T12:03:42 IST" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="placeOrderWithValidDetails()[pri:1, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:30 IST" name="placeOrderWithValidDetails" finished-at="2025-07-29T16:57:33 IST" duration-ms="2890" status="PASS">
+        <test-method signature="placeOrderWithValidDetails()[pri:1, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:42 IST" name="placeOrderWithValidDetails" finished-at="2025-07-31T12:03:45 IST" duration-ms="3472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrderWithValidDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:33 IST" name="tearDown" finished-at="2025-07-29T16:57:35 IST" duration-ms="1467" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:45 IST" name="tearDown" finished-at="2025-07-31T12:03:46 IST" duration-ms="1139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:35 IST" name="setUp" finished-at="2025-07-29T16:57:42 IST" duration-ms="7345" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:46 IST" name="setUp" finished-at="2025-07-31T12:03:51 IST" duration-ms="5221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -590,21 +590,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:42 IST" name="initPagesAndLogin" finished-at="2025-07-29T16:57:43 IST" duration-ms="727" status="PASS">
+        <test-method is-config="true" signature="initPagesAndLogin()[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:51 IST" name="initPagesAndLogin" finished-at="2025-07-31T12:03:53 IST" duration-ms="1119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPagesAndLogin -->
-        <test-method signature="checkoutWithoutItemsNegativeTest()[pri:2, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:43 IST" name="checkoutWithoutItemsNegativeTest" finished-at="2025-07-29T16:57:43 IST" duration-ms="359" status="PASS">
+        <test-method signature="checkoutWithoutItemsNegativeTest()[pri:2, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:03:53 IST" name="checkoutWithoutItemsNegativeTest" finished-at="2025-07-31T12:04:16 IST" duration-ms="23425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutWithoutItemsNegativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@53aad5d5]" started-at="2025-07-29T16:57:43 IST" name="tearDown" finished-at="2025-07-29T16:57:45 IST" duration-ms="1545" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.CheckOutTest@53fe15ff]" started-at="2025-07-31T12:04:16 IST" name="tearDown" finished-at="2025-07-31T12:04:17 IST" duration-ms="982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bstack.tests.CheckOutTest -->
       <class name="com.bstack.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:54:41 IST" name="setUp" finished-at="2025-07-29T16:54:48 IST" duration-ms="7486" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:03 IST" name="setUp" finished-at="2025-07-31T12:00:14 IST" duration-ms="11146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -615,7 +615,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:54:48 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:54:49 IST" duration-ms="1117" status="PASS">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:14 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T12:00:21 IST" duration-ms="6215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -631,11 +631,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:54:49 IST" name="tearDown" finished-at="2025-07-29T16:54:51 IST" duration-ms="1501" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:21 IST" name="tearDown" finished-at="2025-07-31T12:00:22 IST" duration-ms="1169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:54:51 IST" name="setUp" finished-at="2025-07-29T16:54:56 IST" duration-ms="5533" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:22 IST" name="setUp" finished-at="2025-07-31T12:00:28 IST" duration-ms="6218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -646,63 +646,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:54:56 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:55:17 IST" duration-ms="20415" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:28 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T12:00:49 IST" duration-ms="20492" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Lakshmisri]]>
+                <![CDATA[  ]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[testingisfun99]]>
+                <![CDATA[  ]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='  '] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10896, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f30129be-43de-4983-ac37-7b9916028f2b]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15132, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35650f8c-5e85-4863-b8cd-753792d0df4a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='Lakshmisri'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()='  '] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10896, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f30129be-43de-4983-ac37-7b9916028f2b
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15132, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35650f8c-5e85-4863-b8cd-753792d0df4a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -712,11 +712,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:17 IST" name="tearDown" finished-at="2025-07-29T16:55:18 IST" duration-ms="1509" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:49 IST" name="tearDown" finished-at="2025-07-31T12:00:50 IST" duration-ms="976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:18 IST" name="setUp" finished-at="2025-07-29T16:55:27 IST" duration-ms="9175" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:50 IST" name="setUp" finished-at="2025-07-31T12:00:56 IST" duration-ms="6211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -727,7 +727,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:27 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:55:48 IST" duration-ms="20658" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:00:56 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T12:01:16 IST" duration-ms="20723" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -736,54 +736,54 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="1">
               <value>
-                <![CDATA[akanksha@123]]>
+                <![CDATA[testing99]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='testing99'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13112, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4c57d7e7-a7b0-4b97-ba77-7438d8547b29]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8632, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 34d910d5-573e-4823-b749-4d71ade2b828]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='akanksha@123'] (tried for 10 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='password']//div[text()='testing99'] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13112, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4c57d7e7-a7b0-4b97-ba77-7438d8547b29
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8632, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 34d910d5-573e-4823-b749-4d71ade2b828
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:47)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:43)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -793,11 +793,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:48 IST" name="tearDown" finished-at="2025-07-29T16:55:50 IST" duration-ms="1514" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:17 IST" name="tearDown" finished-at="2025-07-31T12:01:18 IST" duration-ms="959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:50 IST" name="setUp" finished-at="2025-07-29T16:55:59 IST" duration-ms="9103" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:18 IST" name="setUp" finished-at="2025-07-31T12:01:24 IST" duration-ms="6322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -808,7 +808,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:55:59 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:56:19 IST" duration-ms="20592" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:24 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T12:01:44 IST" duration-ms="20479" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -825,46 +825,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3128, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 65a354b9-c1c7-4e72-aac0-aac982026244]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8920, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6efb4d85-4eca-400b-b281-976ce25942a2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3128, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 65a354b9-c1c7-4e72-aac0-aac982026244
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8920, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6efb4d85-4eca-400b-b281-976ce25942a2
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -874,11 +874,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:56:19 IST" name="tearDown" finished-at="2025-07-29T16:56:21 IST" duration-ms="1435" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:44 IST" name="tearDown" finished-at="2025-07-31T12:01:45 IST" duration-ms="1077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:56:21 IST" name="setUp" finished-at="2025-07-29T16:56:30 IST" duration-ms="9675" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:45 IST" name="setUp" finished-at="2025-07-31T12:01:52 IST" duration-ms="6162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -889,7 +889,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:56:30 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-29T16:56:51 IST" duration-ms="20624" status="FAIL">
+        <test-method signature="loginTestCases(java.lang.String,java.lang.String)[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:01:52 IST" name="loginTestCases" data-provider="LoginData" finished-at="2025-07-31T12:02:12 IST" duration-ms="20734" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -906,46 +906,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2316, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4112f6dd-783b-471a-bcba-b76e7a04ba4a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9732, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a8ebc3ac-e88b-493c-a4dd-ed1b4be65c88]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='username']//div[text()=''] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2316, moz:profile: C:\Users\srban\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 4112f6dd-783b-471a-bcba-b76e7a04ba4a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9732, moz:profile: C:\Users\LAKSHM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a8ebc3ac-e88b-493c-a4dd-ed1b4be65c88
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
-at com.bstack.pages.LoginPage.login(LoginPage.java:39)
+at com.bstack.utils.WaitUtils.waitForVisibility(WaitUtils.java:22)
+at com.bstack.pages.LoginPage.login(LoginPage.java:35)
 at com.bstack.tests.LoginTest.loginTestCases(LoginTest.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
@@ -955,7 +955,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCases -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@6497b078]" started-at="2025-07-29T16:56:51 IST" name="tearDown" finished-at="2025-07-29T16:56:53 IST" duration-ms="1479" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bstack.tests.LoginTest@76a4ebf2]" started-at="2025-07-31T12:02:12 IST" name="tearDown" finished-at="2025-07-31T12:02:13 IST" duration-ms="993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

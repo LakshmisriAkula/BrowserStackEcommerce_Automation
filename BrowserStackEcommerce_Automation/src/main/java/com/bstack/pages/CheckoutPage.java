@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class CheckoutPage {
     WebDriver driver;
 
-    private By checkoutButton = By.cssSelector(".buy-btn");
+    public By checkoutButton = By.cssSelector(".buy-btn");
     private By firstName = By.id("firstNameInput");
     private By lastName = By.id("lastNameInput");
     private By address = By.id("addressLine1Input");
@@ -16,7 +16,8 @@ public class CheckoutPage {
     private By submitButton = By.id("checkout-shipping-continue");
     private By orderConfirmation = By.id("confirmation-message");
     public static By cartButton = By.xpath("//span[@class='bag bag--float-cart-closed']");
-
+    public By continueShoppingButton = By.xpath("//div[@class='buy-btn']");
+    
     public CheckoutPage(WebDriver driver) {
         this.driver = driver;
     }
