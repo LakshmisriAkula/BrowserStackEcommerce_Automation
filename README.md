@@ -71,27 +71,45 @@ This project is a Selenium-based automation framework built to test the core fun
 - Chrome/Firefox/Edge browser
 - TestNG plugin for IDE
 
-### Steps
+### Run Options
 
-1. **Clone the repository**
-
-   git clone https://github.com/your-username/BrowserStackEcommerce_Automation.git
-   cd BrowserStackEcommerce_Automation
-
-2. Update test data if needed
-   src/main/java/com/bstack/testdata/LoginData.xlsx
-
-3. Run via Maven
+#### 🧪 Option 1: Run all tests via Maven
 
 mvn clean test
 
-4. Or run testng.xml
+🧪 Option 2: Run TestNG suite from terminal
 
-From IDE (Right-click → Run)
+mvn test -DsuiteXmlFile=testng.xml
 
-Or via Maven:
+🧪 Option 3: Run from IDE
+Right-click on testng.xml → Run as TestNG Suite
 
-mvn test -DsuiteXmlFile=TestNG.xml
+🌐 Cross-Browser Testing
+This framework supports cross-browser testing by defining multiple <test> tags in the testng.xml:
+
+<suite name="BrowserStackDemo E-Commerce Test Suite" parallel="false">
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        ...
+    </test>
+
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        ...
+    </test>
+</suite>
+
+🧪 This setup will:
+
+Run the full test suite first on Chrome
+Then repeat the same tests on Firefox
+
+🔁 Optional: To run Chrome and Firefox in parallel, update your suite tag as follows:
+
+
+<suite name="BrowserStackDemo E-Commerce Test Suite" parallel="tests" thread-count="2">
+
+This allows faster execution by running both browser tests simultaneously.
 
 📊 Reports
 
