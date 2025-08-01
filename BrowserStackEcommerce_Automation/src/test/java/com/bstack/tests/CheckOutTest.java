@@ -66,7 +66,7 @@ public class CheckOutTest extends TestBase {
 			Assert.assertTrue(emptyCartMessage.contains("Add some products in the bag"),
 					"Empty cart message not displayed correctly!");
 
-			logWithScreenshot("Cart is empty and the message 'Add some products in the bag' is displayed.");
+			logWithScreenshot("Cart is empty and the message displaying as - Add some products in the bag.");
 
 		}
 

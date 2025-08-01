@@ -38,9 +38,9 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getMethod().getMethodName());
-		com.bstack.base.TestBase.logger = test;
+		TestBase.logger = test;
 
-		String browser = result.getTestContext().getCurrentXmlTest().getParameter("browser");
+		String browser = TestBase.getBrowser();
 
 		test.info("Browser Used: " + browser);
 	}
@@ -61,7 +61,9 @@ public class ExtentTestListener implements ITestListener, ISuiteListener {
 
 		String screenshotName = result.getName() + "_" + timestamp;
 
-		String filePath = WaitUtils.captureScreenshot(driver, screenshotName);
+		String browser = TestBase.getBrowser();
+
+		String filePath = WaitUtils.captureScreenshot(driver, screenshotName, browser);
 
 		test.fail("📸 Screenshot on failure", MediaEntityBuilder.createScreenCaptureFromPath(filePath).build());
 

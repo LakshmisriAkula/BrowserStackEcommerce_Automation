@@ -30,10 +30,10 @@ public class WaitUtils {
 		wait.until(ExpectedConditions.textToBe(cartCount, String.valueOf(expectedCount)));
 	}
 
-	public static String captureScreenshot(WebDriver driver, String testName) {
+	public static String captureScreenshot(WebDriver driver, String testName, String browser) {
 		String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
-		String path = "Screenshots/" + testName + "_" + timestamp + ".png";
+		String path = "Screenshots/" + browser + "_" + testName + "_" +  timestamp + ".png";
 
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(path);
